@@ -1,0 +1,43 @@
+* {
+  font-family: 'Roboto';
+}
+
+.active-event-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.registration-placeholder {
+  font-size: 18px;
+  text-align: center;
+  color: #475569;
+}
+
+.registration-details {
+  text-align: center;
+}
+
+.registration-image {
+  width: 80%;
+  max-width: 250px;
+}
+
+.registration-text {
+  color: #323f4b;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.registration-button {
+  color: #ffffff;
+  background-color: #0967d2;
+  padding: 10px;
+  border: 1px solid #0967d2;
+  border-radius: 5px;
+  font-size: 15px;
+}

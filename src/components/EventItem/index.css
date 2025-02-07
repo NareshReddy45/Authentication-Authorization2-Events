@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto';
+}
+
+.event-item {
+  list-style: none;
+  padding: 15px;
+  text-align: start;
+  cursor: pointer;
+}
+
+.event-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.event-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border 0.2s ease-in-out;
+}
+
+/* Selected event image */
+.event-image.selected {
+  border: 3px solid #2dd4bf;
+}
+
+.event-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.event-location {
+  font-size: 16px;
+  color: #ffffff;
+}
