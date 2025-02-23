@@ -4,7 +4,12 @@
     "es2021": true
   },
   "parser": "@babel/eslint-parser",
-  "extends": ["react-app", "airbnb", "prettier"],
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier"
+  ],
   "parserOptions": {
     "requireConfigFile": false,
     "ecmaFeatures": {
@@ -13,7 +18,7 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "jsx-a11y"],
   "overrides": [
     {
       "files": ["styledComponents.js"],
@@ -24,7 +29,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
@@ -56,6 +61,7 @@
     "react/no-unescaped-entities": "warn",
     "react/jsx-props-no-spreading": "off",
     "operator-assignment": ["warn", "always"],
-    "radix": "off"
+    "radix": "off",
+    "react/function-component-definition": "warn"
   }
 }
