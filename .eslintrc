@@ -4,12 +4,7 @@
     "es2021": true
   },
   "parser": "@babel/eslint-parser",
-  "extends": [
-    "react-app",
-    "airbnb",
-    "plugin:jsx-a11y/recommended",
-    "prettier"
-  ],
+  "extends": ["react-app", "airbnb", "plugin:jsx-a11y/recommended", "prettier"],
   "parserOptions": {
     "requireConfigFile": false,
     "ecmaFeatures": {
@@ -29,7 +24,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-uses-react": "off",
