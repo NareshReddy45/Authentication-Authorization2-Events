@@ -3,9 +3,10 @@
     "browser": true,
     "es2021": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": ["react-app", "airbnb", "prettier"],
   "parserOptions": {
+    "requireConfigFile": false,
     "ecmaFeatures": {
       "jsx": true
     },
